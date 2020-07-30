@@ -1,0 +1,62 @@
+/* Orgainzation */
+.section_two{
+    background: #bbb; 
+    padding: 5% 0%;
+}
+.title{
+   
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+p{
+    text-align: justify;
+}
+ol li{
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 10px;
+}
+/* Orgainzation */
+
+/* PostView */
+.profile{
+    overflow: hidden;
+    width: 100%;
+    background-color: #eee;
+}
+.profile_image{
+    width: 30%;
+    float: left;
+}
+.profile_image img{
+    width: 100%;
+    height:auto;
+    border-radius: 50%;
+}
+.profile_content{
+    padding-top:10px;
+    padding-left: 20px;
+    width: 70%;
+    float: left;
+}
+.LikeShare{
+    padding: 10px 0px;
+}
+
+.comments{
+    margin: 0px 60px;
+}
+
+@media all and (max-width: 767px){
+    .comments{
+        margin: 0px 30px;
+    }
+    .aa{
+        margin: 0px 90px;
+    }
+}
+/* PostView */
+
+

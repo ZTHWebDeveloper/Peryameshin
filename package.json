@@ -1,0 +1,33 @@
+{
+  "name": "reactjs-tutorail",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "history": "^4.10.1",
+    "mdbreact": "^4.26.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-mdl": "^2.1.0",
+    "react-responsive-carousel": "^3.1.52",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "2.1.1",
+    "react-simple-image-slider": "^1.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

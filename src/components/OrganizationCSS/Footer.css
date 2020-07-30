@@ -1,0 +1,149 @@
+.footer_one{
+    background: #1d2028;
+    margin-top: 5%;
+}
+.footer_content{
+    color: red;
+}
+.footer_container{
+    background: #1d2028;
+   border-bottom: 3px solid #333;
+}
+.footer{
+   padding: 5% 0%;
+   width: 80%;
+   margin: 0 auto;
+   overflow: hidden;
+}
+.footer .contact_me{
+    width: 30%;
+    float: left;
+}
+.footer .contact_me{
+    color: white;
+    /* padding-bottom: 1px; */
+}
+.footer .contact_me a{
+    text-decoration: none;
+    color: white;
+}
+.footer .contact_me a span{
+    font-weight: bold;
+    line-height: 2em;
+}
+
+.footer .information{
+    width:30%;
+    float: left;
+}
+.footer .information h2{
+   color: white;
+   
+   /* padding-bottom: 20px; */
+}
+.footer .information ul{
+    padding-right: 60px;
+    list-style: none;
+    line-height:1.4em;
+    color: white;
+}
+
+
+.footer .subscription{
+    width: 40%;
+    float: left;
+}
+.footer .subscription h2{
+    color: white;
+    /*   */
+}
+.footer .subscription p{
+    color: white;
+    line-height: 1.2em;
+}
+.footer .subscription .subscriber{
+   margin-top: 20px;
+}
+.footer .subscription .inputfooter{
+    padding: 12px 0px;
+    border: none;
+}
+.footer .subscription .submitfooter{
+    padding: 12px 10px;
+    background: brown;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+ .footer_bar{
+    background: #000000c7;
+}
+.footer_bar .footer-item {
+    /* padding: 2% 0%; */
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer_title{
+    width: 50%;
+    float: left;
+}
+ .footer_copyright{
+   width: 40%;
+   float: right;
+   display: flex;
+   justify-content: space-between;
+}
+.footer_title h2 .red{
+    color: #e8491d;
+}
+.footer_title h2 span{
+    color: white;
+}
+.footer_title h2 .green{
+    color: green;
+}
+.footer_copyright {
+    padding:30px 0px;
+}
+.footer_copyright p{
+    color: white;
+}
+.footer_copyright ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_copyright ul .list{
+    padding: 0px 15px;
+}
+.footer_copyright ul a{
+    text-decoration: none;
+    color: white;
+    /* font-size: 1em; */
+}
+
+@media all and (max-width: 767px) {
+    .footer .contact_me{
+        width: 100%;
+    }
+    .footer .information{
+        /* margin-top: 30px; */
+        width: 100%;
+    }
+    .footer .subscription{
+        /* margin-top: 30px; */
+        width: 100%;
+    }
+    .footer_title{
+        width: 100%;
+    }
+    .footer_copyright{
+        /* margin-top: 30px; */
+        width: 100%;
+    }
+}

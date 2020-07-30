@@ -1,0 +1,105 @@
+.section_one{
+    background: #35424a;
+    padding: 30px;
+}
+.container{
+    padding-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contactPeople h2{
+    /* padding-top: 1%; */
+    color: white;
+    font-size: 2em;
+}
+.aboutPeople p{
+    /* padding-top: 5%; */
+    line-height: 1.8em;
+    color: white;
+}
+.aboutPeople button {
+    /* margin-top: 20px; */
+    padding: 15px 20px;
+    background: #e8491d;
+    border: none;
+}
+.aboutPeople a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.imageBox{
+   
+    max-width: 100%;
+    overflow: hidden;
+}
+.imageBox .image-item{
+    width: 25%;
+    float: left;
+    margin: 4.1%;
+  
+}
+.imageBox .image-item  img{
+    box-shadow: 4px 4px 10px black;
+    width: 100%;
+    height: 40vh;
+}
+.image-item{
+    position: relative;
+}
+ .overlay{
+     position: absolute;
+     transition: .3s ease;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 100%;
+     transform: scale(0);
+     background: #333;
+ }
+ .image-item:hover .overlay{
+     transform: scale(1);
+ }
+ .image-item .overlay h2{
+    /* padding-top: 20px; */
+    color: white;
+    font-size: 1.4em;
+}
+.image-item .overlay p{
+    /* padding:10px 0px; */
+    color: white;
+}
+.image-item .overlay .textColor{
+    /* padding:10px 0px; */
+    color: #fff;
+    font-size: 1.2em;
+}
+.image-item .overlay button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding:13px;
+    background: black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+@media all and (max-width: 767px) {
+    .section_one{
+        margin-top: 20%;
+    }
+    .mainArea{
+        height: 90vh;
+    }
+    .imageBox .image-item{
+        margin-top: 40px;
+        width: 100%;
+    }
+ 
+    
+ }

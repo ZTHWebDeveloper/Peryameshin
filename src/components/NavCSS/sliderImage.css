@@ -1,0 +1,68 @@
+.HeaderImage{
+    background:linear-gradient(rgba(0, 0, 0, 0.507) ,transparent),url('../../assets/village1.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    height: 110vh;
+}
+marquee{
+    display: none;
+}
+
+.HeaderImage{
+    padding-top: 10%;
+    text-align: center;
+}
+.HeaderImage .tharsi{
+    font-size: 20px;
+    color: greenyellow;
+     text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.HeaderImage h2{
+    margin:5% 0%;
+    color: white;
+    font-family: fantasy;
+    text-shadow: 2px 3px 2px black;
+}
+.HeaderImage h4{
+ font-family: 'Times New Roman', Times, serif;
+    color: springgreen;
+    font-weight:bold;
+}
+
+
+@media all and (max-width: 767px) {
+   .HeaderImage{
+       text-align: center;
+       padding-top:80%;
+       
+   }
+   .village_name{
+       display: none;
+   }
+   marquee{
+       display: block;
+   }
+   .HeaderImage .tharsi{
+       font-size: 20px;
+       padding-top: 10px;
+       color: greenyellow;
+        text-align: center;
+       font-weight: bold;
+       font-family: 'Times New Roman', Times, serif;
+   }
+   .HeaderImage h2{
+       color: white;
+       font-family: fantasy;
+       text-shadow: 2px 3px 2px black;
+   }
+   .HeaderImage h4{
+    font-family: 'Times New Roman', Times, serif;
+       color: springgreen;
+       font-weight:bold;
+   }
+
+   
+}

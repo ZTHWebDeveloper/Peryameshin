@@ -1,0 +1,15 @@
+
+.NavTtitle{
+  padding-top: 15px;
+  padding-right: 10px;
+}
+.NavTtitle .left{
+  display: inline;
+  padding-right: 20px;
+}
+.NavTtitle .right{
+  display: inline;
+}
+.NavTtitle a{
+  color: white;
+}
